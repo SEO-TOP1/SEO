@@ -268,6 +268,18 @@ ol {
   Header
 -----------------------*/
 
+a.WatchKingdomLogoHeader{
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a.WatchKingdomLogoFooter{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .ht-right .lan-selector {
   max-width: 142px;
   cursor: pointer;
@@ -1863,12 +1875,12 @@ ol {
 }
 
 .filter-widget .filter-range-wrap .range-slider .price-input input {
-  font-size: 16px;
-  color: #252525;
-  max-width: 20%;
-  text-align: center;
-  border: 1px solid #ebebeb;
-  border-radius: 2px;
+	font-size: 16px;
+	color: #252525;
+	max-width: 40%;
+	text-align: center;
+	border: 1px solid #ebebeb;
+	border-radius: 2px;
 }
 
 .filter-widget
