@@ -3901,7 +3901,7 @@ a.WatchKingdomLogoFooter{
 .login-form .switch-login .or-login:before {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -5px;
   height: 2px;
   width: 100%;
   background: #9f9f9f;
