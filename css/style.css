@@ -868,8 +868,9 @@ a.WatchKingdomLogoFooter{
 -----------------------*/
 
 .hero-items .single-hero-items {
-  height: 725px;
-  padding-top: 210px;
+	/*height: 725px;*/
+	height: 480px;
+	padding-top: 210px;
 }
 
 .hero-items .single-hero-items span {
@@ -886,7 +887,8 @@ a.WatchKingdomLogoFooter{
 }
 
 .hero-items .single-hero-items h1 {
-  color: #252525;
+  /*color: #252525;*/
+  color: #fff;
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 6px;
@@ -900,6 +902,7 @@ a.WatchKingdomLogoFooter{
   position: relative;
   top: 100px;
   opacity: 0;
+  color: rgb(236, 223, 223);
 }
 
 .hero-items .single-hero-items .primary-btn {
@@ -1071,11 +1074,22 @@ a.WatchKingdomLogoFooter{
 }
 
 .single-banner .inner-text h4 {
+<<<<<<< HEAD
+	color: #252525;
+	font-weight: 700;
+	padding: 11px 28px;
+	background: #ffffff;
+	border-radius: 2px;
+
+	margin-bottom: 50%;
+	margin-right: 60%;
+=======
   color: #252525;
   font-weight: 700;
   padding: 11px 28px;
   background: #ffffff;
   border-radius: 2px;
+>>>>>>> c241704a365c57fbbea7a331ce2d11a4b9811014
 }
 
 /*---------------------
@@ -1223,6 +1237,11 @@ a.WatchKingdomLogoFooter{
 
 .product-item .pi-pic img {
   min-width: 100%;
+}
+
+.product-item .pi-pic-index img {
+	min-width: 100%;
+	min-height: 360px !important;
 }
 
 .product-item .pi-pic .sale {
@@ -1856,12 +1875,12 @@ a.WatchKingdomLogoFooter{
 }
 
 .filter-widget .filter-range-wrap .range-slider .price-input input {
-  font-size: 16px;
-  color: #252525;
-  max-width: 20%;
-  text-align: center;
-  border: 1px solid #ebebeb;
-  border-radius: 2px;
+	font-size: 16px;
+	color: #252525;
+	max-width: 40%;
+	text-align: center;
+	border: 1px solid #ebebeb;
+	border-radius: 2px;
 }
 
 .filter-widget
