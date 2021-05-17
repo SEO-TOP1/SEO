@@ -816,7 +816,8 @@ ol {
 -----------------------*/
 
 .hero-items .single-hero-items {
-	height: 725px;
+	/*height: 725px;*/
+	height: 480px;
 	padding-top: 210px;
 }
 
@@ -834,7 +835,7 @@ ol {
 }
 
 .hero-items .single-hero-items h1 {
-	color: #252525;
+	color: #fff;
 	font-size: 72px;
 	font-weight: 700;
 	margin-bottom: 6px;
@@ -848,6 +849,7 @@ ol {
 	position: relative;
 	top: 100px;
 	opacity: 0;
+	color: rgb(236, 223, 223);
 }
 
 .hero-items .single-hero-items .primary-btn {
@@ -1024,6 +1026,9 @@ ol {
 	padding: 11px 28px;
 	background: #ffffff;
 	border-radius: 2px;
+
+	margin-bottom: 50%;
+	margin-right: 60%;
 }
 
 /*---------------------
@@ -1038,7 +1043,8 @@ ol {
 }
 
 .product-large {
-	height: 620px;
+	/*height: 620px;*/
+	height: 550px;
 	margin-left: -15px;
 	margin-right: -15px;
 	text-align: center;
@@ -1171,6 +1177,7 @@ ol {
 
 .product-item .pi-pic img {
 	min-width: 100%;
+	min-height: 400px;
 }
 
 .product-item .pi-pic .sale {
