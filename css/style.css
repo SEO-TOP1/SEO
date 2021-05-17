@@ -3423,7 +3423,8 @@ a.WatchKingdomLogoFooter{
 }
 
 .blog-details-inner .blog-quote {
-  margin-bottom: 65px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .blog-details-inner .blog-quote p {
@@ -3440,16 +3441,6 @@ a.WatchKingdomLogoFooter{
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-.blog-details-inner .blog-quote p:before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 88px;
-  width: 3px;
-  background: #e7ab3c;
-  content: "";
 }
 
 .blog-details-inner .blog-more {
@@ -3608,6 +3599,12 @@ a.WatchKingdomLogoFooter{
 
 .blog-details-inner .posted-by .pb-pic {
   float: left;
+}
+
+.blog-details-inner .posted-by .pb-pic > img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 .blog-details-inner .posted-by .pb-text {
