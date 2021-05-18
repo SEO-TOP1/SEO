@@ -1764,7 +1764,7 @@ a.WatchKingdomLogoFooter{
   position: relative;
 }
 
-.breadcrumb-text a:after {
+.breadcrumb-text a:after, .breadcrumb-text span.not-end:after {
   position: absolute;
   right: -18px;
   top: 0px;
@@ -1777,6 +1777,8 @@ a.WatchKingdomLogoFooter{
 .breadcrumb-text span {
   display: inline-block;
   color: #b2b2b2;
+  position: relative;
+  margin-right: 28px;
 }
 
 /*---------------------
