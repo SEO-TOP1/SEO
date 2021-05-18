@@ -1074,11 +1074,22 @@ a.WatchKingdomLogoFooter{
 }
 
 .single-banner .inner-text h4 {
+<<<<<<< HEAD
   color: #252525;
   font-weight: 700;
   padding: 11px 28px;
   background: #ffffff;
   border-radius: 2px;
+=======
+	color: #252525;
+	font-weight: 700;
+	padding: 11px 28px;
+	background: #ffffff;
+	border-radius: 2px;
+
+	margin-bottom: 50%;
+	margin-right: 60%;
+>>>>>>> c2b415c7d6b16bae01fd1325f5321f71127c4a6b
 }
 
 /*---------------------
@@ -1753,7 +1764,7 @@ a.WatchKingdomLogoFooter{
   position: relative;
 }
 
-.breadcrumb-text a:after {
+.breadcrumb-text a:after, .breadcrumb-text span.not-end:after {
   position: absolute;
   right: -18px;
   top: 0px;
@@ -1766,6 +1777,8 @@ a.WatchKingdomLogoFooter{
 .breadcrumb-text span {
   display: inline-block;
   color: #b2b2b2;
+  position: relative;
+  margin-right: 28px;
 }
 
 /*---------------------
@@ -4395,4 +4408,12 @@ a.WatchKingdomLogoFooter{
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+.index a{
+  color:black;
+  
+}
+.index a:hover{
+  color:blue;
+  cursor: pointer;
 }
