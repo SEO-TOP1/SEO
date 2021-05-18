@@ -1074,14 +1074,11 @@ a.WatchKingdomLogoFooter{
 }
 
 .single-banner .inner-text h4 {
-	color: #252525;
-	font-weight: 700;
-	padding: 11px 28px;
-	background: #ffffff;
-	border-radius: 2px;
-
-	margin-bottom: 50%;
-	margin-right: 60%;
+  color: #252525;
+  font-weight: 700;
+  padding: 11px 28px;
+  background: #ffffff;
+  border-radius: 2px;
 }
 
 /*---------------------
@@ -1233,7 +1230,7 @@ a.WatchKingdomLogoFooter{
 
 .product-item .pi-pic-index img {
 	min-width: 100%;
-	min-height: 360px !important;
+	min-height: 460px !important;
 }
 
 .product-item .pi-pic .sale {
@@ -3396,6 +3393,8 @@ a.WatchKingdomLogoFooter{
 .blog-details-inner .blog-large-pic img {
   min-width: 100%;
 }
+
+
 
 .blog-details-inner .blog-detail-desc {
   margin-top: 22px;
