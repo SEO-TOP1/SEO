@@ -268,6 +268,12 @@ ol {
   Header
 -----------------------*/
 
+a.WatchKingdomLogoHeader{
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 a.WatchKingdomLogoFooter{
   color: #fff;
   font-size: 24px;
@@ -420,6 +426,19 @@ a.WatchKingdomLogoFooter{
 
 .inner-header {
   padding: 39px 0;
+}
+
+.inner-header .logo {
+  padding: 0;
+}
+
+.inner-header .logo a {
+  display: inline-block;
+}
+
+.inner-header .logo > a > img{
+  width: 100px;
+  
 }
 
 .inner-header .advanced-search {
@@ -4173,16 +4192,6 @@ a.WatchKingdomLogoFooter{
   }
   .inner-header .logo {
     text-align: center;
-    padding: 0;
-  }
-
-  .inner-header .logo a {
-    display: block;
-    color: #fff;
-  }
-  .inner-header .logo > a > img {
-    display: block;
-    width: 100px !important;
   }
   .inner-header .nav-right {
     text-align: left;
