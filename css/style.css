@@ -1288,6 +1288,11 @@ a.WatchKingdomLogoFooter{
   color: #ffffff;
 }
 
+.active-difference {
+  background: #e7ab3c;
+  color: #ffffff;
+}
+
 .product-item .pi-pic ul li a {
   font-size: 16px;
   font-weight: 700;
