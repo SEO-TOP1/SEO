@@ -429,11 +429,16 @@ a.WatchKingdomLogoFooter{
 }
 
 .inner-header .logo {
-  padding: 12px 0;
+  padding: 0;
 }
 
 .inner-header .logo a {
   display: inline-block;
+}
+
+.inner-header .logo > a > img{
+  width: 50px;
+
 }
 
 .inner-header .advanced-search {
