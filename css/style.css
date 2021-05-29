@@ -1200,7 +1200,8 @@ a.WatchKingdomLogoFooter{
 }
 
 .product-item .pi-pic img {
-  min-width: 100%;
+  width: 100%;
+  /* height: 270px; */
 }
 
 .product-item .pi-pic-index img {
